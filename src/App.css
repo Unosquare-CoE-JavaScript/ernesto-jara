@@ -1,0 +1,11 @@
+@import "~normalize.css";
+
+body {
+  color: black;
+}
+button:disabled {
+  color: darkgray;
+}
+button:not(:disabled) {
+  color: white;
+}
